@@ -192,6 +192,11 @@ namespace TaxisDb.Persistence.Repositories
                     Rolename = role.Rolename,
                     CreationUser = role.CreationUser,
                     CreationDate = role.CreationDate.Date,
+                    ModifyDate = role.ModifyDate,
+                    ModifyUser = role.ModifyUser,
+                    Deleted = role.Deleted,
+                    DeletedDate = role.DeletedDate,
+                    DeletedUser = role.DeletedUser,
                 };
             }
             catch (Exception ex)

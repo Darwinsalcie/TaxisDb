@@ -132,7 +132,7 @@ namespace TaxisDb.Web.Controllers
                     Id = updateDTO.Id,
                     Rolename = updateDTO.Rolename,
                     ModifyUser = updateDTO.ModifyUser,
-
+                    ModifyDate = updateDTO.ModifyDate,
                     Description = updateDTO.Description,
                     CreationUser = updateDTO.CreationUser,
 

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TaxisDb.Persistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+362628980eedb74ef8426b7fbeda5f5d0bac6e5c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5048b130970c6124049d5e7fc194dc5407cabe24")]
 [assembly: System.Reflection.AssemblyProductAttribute("TaxisDb.Persistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TaxisDb.Persistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
