@@ -31,7 +31,7 @@ namespace TaxisDb.Persistence.Interfaces
         /// </summary>
         /// <param name="Id"></param>
         /// <returns></returns>
-        Task<DataResults<List<UserModel>>> GetUserById(int Id);
+        Task<DataResults<UserModel>> GetUserById(int Id);
 
     }
 }

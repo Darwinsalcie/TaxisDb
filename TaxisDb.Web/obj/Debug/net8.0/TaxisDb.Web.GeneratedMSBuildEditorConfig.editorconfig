@@ -58,12 +58,48 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/darwi/OneDrive - Universidad APEC - Académico/C\#/ITLA/C\# .NET Intermedio/TaxisDb/TaxisDb/TaxisDb.Web/Views/Taxi/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGF4aVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/darwi/OneDrive - Universidad APEC - Académico/C\#/ITLA/C\# .NET Intermedio/TaxisDb/TaxisDb/TaxisDb.Web/Views/Taxi/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGF4aVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/darwi/OneDrive - Universidad APEC - Académico/C\#/ITLA/C\# .NET Intermedio/TaxisDb/TaxisDb/TaxisDb.Web/Views/Taxi/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGF4aVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/darwi/OneDrive - Universidad APEC - Académico/C\#/ITLA/C\# .NET Intermedio/TaxisDb/TaxisDb/TaxisDb.Web/Views/Taxi/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGF4aVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/darwi/OneDrive - Universidad APEC - Académico/C\#/ITLA/C\# .NET Intermedio/TaxisDb/TaxisDb/TaxisDb.Web/Views/Trip/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJpcFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/darwi/OneDrive - Universidad APEC - Académico/C\#/ITLA/C\# .NET Intermedio/TaxisDb/TaxisDb/TaxisDb.Web/Views/Trip/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJpcFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/darwi/OneDrive - Universidad APEC - Académico/C\#/ITLA/C\# .NET Intermedio/TaxisDb/TaxisDb/TaxisDb.Web/Views/Trip/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJpcFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/darwi/OneDrive - Universidad APEC - Académico/C\#/ITLA/C\# .NET Intermedio/TaxisDb/TaxisDb/TaxisDb.Web/Views/Trip/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJpcFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/darwi/OneDrive - Universidad APEC - Académico/C\#/ITLA/C\# .NET Intermedio/TaxisDb/TaxisDb/TaxisDb.Web/Views/User/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/darwi/OneDrive - Universidad APEC - Académico/C\#/ITLA/C\# .NET Intermedio/TaxisDb/TaxisDb/TaxisDb.Web/Views/User/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/darwi/OneDrive - Universidad APEC - Académico/C\#/ITLA/C\# .NET Intermedio/TaxisDb/TaxisDb/TaxisDb.Web/Views/User/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/darwi/OneDrive - Universidad APEC - Académico/C\#/ITLA/C\# .NET Intermedio/TaxisDb/TaxisDb/TaxisDb.Web/Views/User/Index.cshtml]

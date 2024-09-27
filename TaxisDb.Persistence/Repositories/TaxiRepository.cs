@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
+using System.Numerics;
 using TaxisDb.Domain.Entities;
 using TaxisDb.Domain.Models;
 using TaxisDb.Persistence.Context;
@@ -127,7 +128,7 @@ namespace TaxisDb.Persistence.Repositories
                 //    throw new RoleDataException(this.configuration["Role:start_date_is_null"]);
 
 
-                Taxi? taxiToUpdate = this.taxisdb.Taxi.Find(entity.Id);
+                Taxi? taxiToUpdate = await this.taxisdb.Taxi.FindAsync(entity.Id);
 
                 taxiToUpdate.UserId = entity.UserId;
                 taxiToUpdate.Placa = entity.Placa;
@@ -176,6 +177,7 @@ namespace TaxisDb.Persistence.Repositories
                    join user in this.taxisdb.User on taxi.UserId equals user.Id
                    where taxi.Deleted  != true
                    select new TaxiModel()
+
                    {   Id = taxi.Id,
                        UserId = user.Id,
                        CreationDate = taxi.CreationDate,
@@ -187,24 +189,24 @@ namespace TaxisDb.Persistence.Repositories
                    };
         }
 
-        public async Task<DataResults<List<TaxiModel>>> GetTaxibyId(int Id)
+        public async Task<DataResults<TaxiModel>> GetTaxibyId(int Id)
         {
-            DataResults<List<TaxiModel>> result = new DataResults<List<TaxiModel>>();
-
+            DataResults<TaxiModel> result = new DataResults<TaxiModel>();
             try
             {
-                var query = await GetTaxiBaseQuery()
-                    .Where(taxi => taxi.Id == Id)
-                    .ToListAsync();
-                result.Result = query;
+                TaxiModel? dato = await GetTaxiBaseQuery(). SingleOrDefaultAsync(tax => tax.Id == Id);
+
+                result.Result = dato;
             }
             catch (Exception ex)
             {
 
-                result.Message = this.configuration["Taxi:get_taxi_id"];
+                result.Message = this.configuration["Taxi:get_taxi_Id"];
                 result.Success = false;
-                this.logger.LogError(this.configuration["Taxi:get_taxi_id"], ex.ToString());
+                this.logger.LogError(this.configuration["Taxi:get_taxi_Id"], ex.ToString());
+
             }
+
             return result;
         }
     }

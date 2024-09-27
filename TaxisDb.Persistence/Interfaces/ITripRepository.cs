@@ -18,9 +18,9 @@ namespace TaxisDb.Persistence.Interfaces
         /// <summary>
         /// Get Tip by tripId
         /// </summary>
-        /// <param name="id"></param>
+        /// <param name="Id"></param>
         /// <returns></returns>
-        Task<DataResults<TripModel>> GetTripbyId(int id);
+        Task<DataResults<TripModel>> GetTripbyId(int Id);
 
         /// <summary>
         /// /Get trip by taxiId

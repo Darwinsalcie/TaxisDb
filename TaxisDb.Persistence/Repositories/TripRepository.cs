@@ -52,14 +52,12 @@ namespace TaxisDb.Persistence.Repositories
             return result;
         }
 
-        public async Task<DataResults<TripModel>> GetTripbyId(int id)
+        public async Task<DataResults<TripModel>> GetTripbyId(int Id)
         {
             DataResults<TripModel> result = new DataResults<TripModel>();
             try
             {
-                TripModel? dato = await GetTripBaseQuery()
-                                        .Where(trip => trip.Id == id)
-                                         .FirstOrDefaultAsync();
+                TripModel? dato =  await GetTripBaseQuery().SingleOrDefaultAsync(trip => trip.Id == Id);
 
 
                 result.Result = dato;
@@ -137,7 +135,7 @@ namespace TaxisDb.Persistence.Repositories
                 //    throw new RoleDataException(this.configuration["Role:start_date_is_null"]);
 
 
-                Trip? tripToUpdate = this.taxisdb.Trip.Find(entity.Id);
+                Trip? tripToUpdate = await this.taxisdb.Trip.FindAsync(entity.Id);
 
                 tripToUpdate.Taxi_Id = entity.Taxi_Id;
                 tripToUpdate.Desde = entity.Desde;
@@ -166,7 +164,7 @@ namespace TaxisDb.Persistence.Repositories
         private IQueryable<TripModel> GetTripBaseQuery()
         {
             return from trip in this.taxisdb.Trip
-                   //join taxi in this.taxisdb.Trip on trip.Taxi_Id equals taxi.Id
+                   join taxi in this.taxisdb.Trip on trip.Taxi_Id equals taxi.Id
                    where trip.Deleted != true
 
                    select new TripModel()

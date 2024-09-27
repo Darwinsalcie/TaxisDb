@@ -87,15 +87,15 @@ namespace TaxisDb.Persistence.Repositories
             }
             return result;
         }
-        public async Task<DataResults<List<UserModel>>> GetUserById(int Id)
+        public async Task<DataResults<UserModel>> GetUserById(int Id)
         {
-            DataResults<List<UserModel>> result = new DataResults<List<UserModel>>();
+            DataResults<UserModel> result = new DataResults<UserModel>();
 
             try
             {
-                var query = await GetUserBaseQuery()
-                    .Where(user => user.Id == Id)
-                    .ToListAsync();
+                var query = await GetUserBaseQuery().SingleOrDefaultAsync(us => us.Id == Id);
+
+
                 result.Result = query;
             }
             catch (Exception ex)
@@ -131,7 +131,7 @@ namespace TaxisDb.Persistence.Repositories
             bool result = false;
             try
             {
-                User? userToUpdate = this.taxisdb.User.Find(entity.Id);
+                User? userToUpdate = await this.taxisdb.User.FindAsync(entity.Id);
 
                 if (userToUpdate == null)
                     throw new EntityDataException(this.configuration["User:not_found"]);

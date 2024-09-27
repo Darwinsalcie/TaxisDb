@@ -12,6 +12,7 @@ namespace TaxisDb.Persistence.Models.Taxi
         public string Modelo { get; set; }
         public int Kilometraje { get; set; }
         public DateTime CreationDate { get; set; }
+        public bool Deleted { get; set; }
 
     }
 }

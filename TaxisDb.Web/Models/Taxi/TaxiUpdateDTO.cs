@@ -2,7 +2,7 @@
 
 namespace TaxisDb.Web.Models.Taxi
 {
-    public abstract record TaxiUpdateDTO : BaseUpdateEntityDTO
+    public record TaxiUpdateDTO : BaseUpdateEntityDTO
     {
         public int UserId { get; set; }
         public string Placa { get; set; }

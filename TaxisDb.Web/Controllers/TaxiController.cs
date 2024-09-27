@@ -84,21 +84,21 @@ namespace TaxisDb.Web.Controllers
         // GET: TaxiController/Edit/5
         public async Task<IActionResult> Edit(int Id)
         {
-
             var result = await this.taxiRepository.GetTaxibyId(Id);
             if (result == null)
             {
-                return NotFound(); // Manejo del caso donde no se encuentra el taxi
+                return NotFound();
             }
             return View(result.Result);
-
         }
+
 
         // POST: TaxiController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(TaxiUpdateDTO updateDTO)
         {
+
             try
             {
                 updateDTO.ModifyDate = DateTime.Now;
@@ -106,6 +106,7 @@ namespace TaxisDb.Web.Controllers
 
                 Taxi taxi = new Taxi()
                 {
+                    Id = updateDTO.Id,
                     UserId = updateDTO.UserId,
                     Placa = updateDTO.Placa,
                     Marca = updateDTO.Marca,

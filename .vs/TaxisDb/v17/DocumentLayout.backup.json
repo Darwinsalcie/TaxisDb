@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\C#\\ITLA\\C# .NET Intermedio\\TaxisDb\\TaxisDb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7C961A93-18EF-482C-AAAE-9E91FF918F3B}|TaxisDb.Web\\TaxisDb.Web.csproj|c:\\users\\darwi\\onedrive - universidad apec - acad\u00E9mico\\c#\\itla\\c# .net intermedio\\taxisdb\\taxisdb\\taxisdb.web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C961A93-18EF-482C-AAAE-9E91FF918F3B}|TaxisDb.Web\\TaxisDb.Web.csproj|solutionrelative:taxisdb.web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C961A93-18EF-482C-AAAE-9E91FF918F3B}|TaxisDb.Web\\TaxisDb.Web.csproj|c:\\users\\darwi\\onedrive - universidad apec - acad\u00E9mico\\c#\\itla\\c# .net intermedio\\taxisdb\\taxisdb\\taxisdb.web\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C961A93-18EF-482C-AAAE-9E91FF918F3B}|TaxisDb.Web\\TaxisDb.Web.csproj|solutionrelative:taxisdb.web\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C961A93-18EF-482C-AAAE-9E91FF918F3B}|TaxisDb.Web\\TaxisDb.Web.csproj|c:\\users\\darwi\\onedrive - universidad apec - acad\u00E9mico\\c#\\itla\\c# .net intermedio\\taxisdb\\taxisdb\\taxisdb.web\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C961A93-18EF-482C-AAAE-9E91FF918F3B}|TaxisDb.Web\\TaxisDb.Web.csproj|solutionrelative:taxisdb.web\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C961A93-18EF-482C-AAAE-9E91FF918F3B}|TaxisDb.Web\\TaxisDb.Web.csproj|c:\\users\\darwi\\onedrive - universidad apec - acad\u00E9mico\\c#\\itla\\c# .net intermedio\\taxisdb\\taxisdb\\taxisdb.web\\views\\taxi\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C961A93-18EF-482C-AAAE-9E91FF918F3B}|TaxisDb.Web\\TaxisDb.Web.csproj|solutionrelative:taxisdb.web\\views\\taxi\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C961A93-18EF-482C-AAAE-9E91FF918F3B}|TaxisDb.Web\\TaxisDb.Web.csproj|c:\\users\\darwi\\onedrive - universidad apec - acad\u00E9mico\\c#\\itla\\c# .net intermedio\\taxisdb\\taxisdb\\taxisdb.web\\controllers\\tripcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C961A93-18EF-482C-AAAE-9E91FF918F3B}|TaxisDb.Web\\TaxisDb.Web.csproj|solutionrelative:taxisdb.web\\controllers\\tripcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C961A93-18EF-482C-AAAE-9E91FF918F3B}|TaxisDb.Web\\TaxisDb.Web.csproj|c:\\users\\darwi\\onedrive - universidad apec - acad\u00E9mico\\c#\\itla\\c# .net intermedio\\taxisdb\\taxisdb\\taxisdb.web\\views\\taxi\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C961A93-18EF-482C-AAAE-9E91FF918F3B}|TaxisDb.Web\\TaxisDb.Web.csproj|solutionrelative:taxisdb.web\\views\\taxi\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C961A93-18EF-482C-AAAE-9E91FF918F3B}|TaxisDb.Web\\TaxisDb.Web.csproj|c:\\users\\darwi\\onedrive - universidad apec - acad\u00E9mico\\c#\\itla\\c# .net intermedio\\taxisdb\\taxisdb\\taxisdb.web\\controllers\\taxicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C961A93-18EF-482C-AAAE-9E91FF918F3B}|TaxisDb.Web\\TaxisDb.Web.csproj|solutionrelative:taxisdb.web\\controllers\\taxicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C961A93-18EF-482C-AAAE-9E91FF918F3B}|TaxisDb.Web\\TaxisDb.Web.csproj|c:\\users\\darwi\\onedrive - universidad apec - acad\u00E9mico\\c#\\itla\\c# .net intermedio\\taxisdb\\taxisdb\\taxisdb.web\\views\\trip\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C961A93-18EF-482C-AAAE-9E91FF918F3B}|TaxisDb.Web\\TaxisDb.Web.csproj|solutionrelative:taxisdb.web\\views\\trip\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C961A93-18EF-482C-AAAE-9E91FF918F3B}|TaxisDb.Web\\TaxisDb.Web.csproj|c:\\users\\darwi\\onedrive - universidad apec - acad\u00E9mico\\c#\\itla\\c# .net intermedio\\taxisdb\\taxisdb\\taxisdb.web\\views\\trip\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C961A93-18EF-482C-AAAE-9E91FF918F3B}|TaxisDb.Web\\TaxisDb.Web.csproj|solutionrelative:taxisdb.web\\views\\trip\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C961A93-18EF-482C-AAAE-9E91FF918F3B}|TaxisDb.Web\\TaxisDb.Web.csproj|c:\\users\\darwi\\onedrive - universidad apec - acad\u00E9mico\\c#\\itla\\c# .net intermedio\\taxisdb\\taxisdb\\taxisdb.web\\views\\trip\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C961A93-18EF-482C-AAAE-9E91FF918F3B}|TaxisDb.Web\\TaxisDb.Web.csproj|solutionrelative:taxisdb.web\\views\\trip\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,54 +42,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TripController.cs",
-              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\C#\\ITLA\\C# .NET Intermedio\\TaxisDb\\TaxisDb\\TaxisDb.Web\\Controllers\\TripController.cs",
-              "RelativeDocumentMoniker": "TaxisDb.Web\\Controllers\\TripController.cs",
-              "ToolTip": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\C#\\ITLA\\C# .NET Intermedio\\TaxisDb\\TaxisDb\\TaxisDb.Web\\Controllers\\TripController.cs",
-              "RelativeToolTip": "TaxisDb.Web\\Controllers\\TripController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T09:41:18.627Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TaxiController.cs",
-              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\C#\\ITLA\\C# .NET Intermedio\\TaxisDb\\TaxisDb\\TaxisDb.Web\\Controllers\\TaxiController.cs",
-              "RelativeDocumentMoniker": "TaxisDb.Web\\Controllers\\TaxiController.cs",
-              "ToolTip": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\C#\\ITLA\\C# .NET Intermedio\\TaxisDb\\TaxisDb\\TaxisDb.Web\\Controllers\\TaxiController.cs",
-              "RelativeToolTip": "TaxisDb.Web\\Controllers\\TaxiController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T09:41:17.532Z",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\C#\\ITLA\\C# .NET Intermedio\\TaxisDb\\TaxisDb\\TaxisDb.Web\\Views\\User\\Create.cshtml",
+              "RelativeDocumentMoniker": "TaxisDb.Web\\Views\\User\\Create.cshtml",
+              "ToolTip": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\C#\\ITLA\\C# .NET Intermedio\\TaxisDb\\TaxisDb\\TaxisDb.Web\\Views\\User\\Create.cshtml",
+              "RelativeToolTip": "TaxisDb.Web\\Views\\User\\Create.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T12:53:03.885Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RoleController.cs",
-              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\C#\\ITLA\\C# .NET Intermedio\\TaxisDb\\TaxisDb\\TaxisDb.Web\\Controllers\\RoleController.cs",
-              "RelativeDocumentMoniker": "TaxisDb.Web\\Controllers\\RoleController.cs",
-              "ToolTip": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\C#\\ITLA\\C# .NET Intermedio\\TaxisDb\\TaxisDb\\TaxisDb.Web\\Controllers\\RoleController.cs",
-              "RelativeToolTip": "TaxisDb.Web\\Controllers\\RoleController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAYwGQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T04:16:35.316Z",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\C#\\ITLA\\C# .NET Intermedio\\TaxisDb\\TaxisDb\\TaxisDb.Web\\Views\\Taxi\\Create.cshtml",
+              "RelativeDocumentMoniker": "TaxisDb.Web\\Views\\Taxi\\Create.cshtml",
+              "ToolTip": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\C#\\ITLA\\C# .NET Intermedio\\TaxisDb\\TaxisDb\\TaxisDb.Web\\Views\\Taxi\\Create.cshtml",
+              "RelativeToolTip": "TaxisDb.Web\\Views\\Taxi\\Create.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T12:52:28.904Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\C#\\ITLA\\C# .NET Intermedio\\TaxisDb\\TaxisDb\\TaxisDb.Web\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "TaxisDb.Web\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\C#\\ITLA\\C# .NET Intermedio\\TaxisDb\\TaxisDb\\TaxisDb.Web\\Controllers\\UserController.cs",
-              "RelativeToolTip": "TaxisDb.Web\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T08:27:43.676Z",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\C#\\ITLA\\C# .NET Intermedio\\TaxisDb\\TaxisDb\\TaxisDb.Web\\Views\\Trip\\Edit.cshtml",
+              "RelativeDocumentMoniker": "TaxisDb.Web\\Views\\Trip\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\C#\\ITLA\\C# .NET Intermedio\\TaxisDb\\TaxisDb\\TaxisDb.Web\\Views\\Trip\\Edit.cshtml",
+              "RelativeToolTip": "TaxisDb.Web\\Views\\Trip\\Edit.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T12:51:47.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\C#\\ITLA\\C# .NET Intermedio\\TaxisDb\\TaxisDb\\TaxisDb.Web\\Views\\Trip\\Create.cshtml",
+              "RelativeDocumentMoniker": "TaxisDb.Web\\Views\\Trip\\Create.cshtml",
+              "ToolTip": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\C#\\ITLA\\C# .NET Intermedio\\TaxisDb\\TaxisDb\\TaxisDb.Web\\Views\\Trip\\Create.cshtml",
+              "RelativeToolTip": "TaxisDb.Web\\Views\\Trip\\Create.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T12:51:25.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\C#\\ITLA\\C# .NET Intermedio\\TaxisDb\\TaxisDb\\TaxisDb.Web\\Views\\Trip\\Index.cshtml",
+              "RelativeDocumentMoniker": "TaxisDb.Web\\Views\\Trip\\Index.cshtml",
+              "ToolTip": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\C#\\ITLA\\C# .NET Intermedio\\TaxisDb\\TaxisDb\\TaxisDb.Web\\Views\\Trip\\Index.cshtml",
+              "RelativeToolTip": "TaxisDb.Web\\Views\\Trip\\Index.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T12:50:21.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\C#\\ITLA\\C# .NET Intermedio\\TaxisDb\\TaxisDb\\TaxisDb.Web\\Views\\Taxi\\Edit.cshtml",
+              "RelativeDocumentMoniker": "TaxisDb.Web\\Views\\Taxi\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\C#\\ITLA\\C# .NET Intermedio\\TaxisDb\\TaxisDb\\TaxisDb.Web\\Views\\Taxi\\Edit.cshtml",
+              "RelativeToolTip": "TaxisDb.Web\\Views\\Taxi\\Edit.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T12:48:57.085Z",
               "EditorCaption": ""
             }
           ]
