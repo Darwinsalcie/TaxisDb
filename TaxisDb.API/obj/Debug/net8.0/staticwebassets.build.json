@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "yAnoDHQ4zT6aAbK3nVAnjq/oX1qsgnJNOXPPWy7xKCw=",
+  "Source": "TaxisDb.API",
+  "BasePath": "_content/TaxisDb.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,6 @@
+@TaxisDb.API_HostAddress = http://localhost:5025
+
+GET {{TaxisDb.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

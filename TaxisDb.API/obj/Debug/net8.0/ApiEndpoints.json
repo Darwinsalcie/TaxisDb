@@ -1,0 +1,346 @@
+[
+  {
+    "ContainingType": "TaxisDb.API.Controllers.RoleController",
+    "Method": "Post",
+    "RelativePath": "api/Role/CreateRole",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roleSaveDTO",
+        "Type": "TaxisDb.API.Models.Role.RoleSaveDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaxisDb.API.Controllers.RoleController",
+    "Method": "Get",
+    "RelativePath": "api/Role/Get RolebyRoleNmae",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rolename",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaxisDb.API.Controllers.RoleController",
+    "Method": "Get",
+    "RelativePath": "api/Role/GetRoles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaxisDb.API.Controllers.RoleController",
+    "Method": "Remove",
+    "RelativePath": "api/Role/RemoveRole",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaxisDb.API.Controllers.RoleController",
+    "Method": "Put",
+    "RelativePath": "api/Role/UpdateDepartment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roleUpdateDTO",
+        "Type": "TaxisDb.API.Models.Role.RoleUpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaxisDb.API.Controllers.TaxiController",
+    "Method": "Post",
+    "RelativePath": "api/Taxi/CreateTaxi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "taxiSaveDTO",
+        "Type": "TaxisDb.API.Models.Taxi.TaxiSaveDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaxisDb.API.Controllers.TaxiController",
+    "Method": "Get",
+    "RelativePath": "api/Taxi/GetTaxi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaxisDb.API.Controllers.TaxiController",
+    "Method": "Get",
+    "RelativePath": "api/Taxi/GetTaxibyPlaca",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "placa",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaxisDb.API.Controllers.TaxiController",
+    "Method": "Get",
+    "RelativePath": "api/Taxi/GettaxibyuserId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaxisDb.API.Controllers.TaxiController",
+    "Method": "Remove",
+    "RelativePath": "api/Taxi/RemoveTaxi",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaxisDb.API.Controllers.TaxiController",
+    "Method": "Put",
+    "RelativePath": "api/Taxi/UpdateTaxi",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "taxiUpdateDTO",
+        "Type": "TaxisDb.API.Models.Taxi.TaxiUpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaxisDb.API.Controllers.TripController",
+    "Method": "Post",
+    "RelativePath": "api/Trip/CreateTrip",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tripSaveDTO",
+        "Type": "TaxisDb.API.Models.Trip.TripSaveDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaxisDb.API.Controllers.TripController",
+    "Method": "GetAll",
+    "RelativePath": "api/Trip/GetTrip",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaxisDb.API.Controllers.TripController",
+    "Method": "GetById",
+    "RelativePath": "api/Trip/GetTripByRoleNmae",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaxisDb.API.Controllers.TripController",
+    "Method": "GetByUserId",
+    "RelativePath": "api/Trip/GetTripsBytaxiId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "TaxiId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaxisDb.API.Controllers.TripController",
+    "Method": "Remove",
+    "RelativePath": "api/Trip/RemoveTrip",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaxisDb.API.Controllers.TripController",
+    "Method": "Put",
+    "RelativePath": "api/Trip/UpdateTrip",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tripUpdateDTO",
+        "Type": "TaxisDb.API.Models.Trip.TripUpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaxisDb.API.Controllers.UserController",
+    "Method": "Post",
+    "RelativePath": "api/User/CreateUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userSaveDTO",
+        "Type": "TaxisDb.API.Models.User.UserSaveDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaxisDb.API.Controllers.UserController",
+    "Method": "GetByUserGroupId",
+    "RelativePath": "api/User/GetRolesByUserGroupId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usergroupId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaxisDb.API.Controllers.UserController",
+    "Method": "Get",
+    "RelativePath": "api/User/GetUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaxisDb.API.Controllers.UserController",
+    "Method": "Get",
+    "RelativePath": "api/User/GetUserByName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaxisDb.API.Controllers.UserController",
+    "Method": "Remove",
+    "RelativePath": "api/User/RemoveUser",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaxisDb.API.Controllers.UserController",
+    "Method": "Put",
+    "RelativePath": "api/User/UpdateUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userUpdateDTO",
+        "Type": "TaxisDb.API.Models.User.UserUpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

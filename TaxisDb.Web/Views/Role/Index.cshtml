@@ -1,0 +1,93 @@
+﻿@model TaxisDb.Domain.Models.DataResults<List<TaxisDb.Persistence.Models.Role.RoleModel>>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+@if (!Model.Success)
+{
+    <span class="alert-danger">@Model.Message</span>
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Rolename
+            </th>
+            <th>
+                Description
+            </th>
+            <th>
+                CreationDate
+            </th>
+            <th>
+                CreationUser
+            </th>
+            <th>
+                ModifyDate
+            </th>
+            <th>
+                ModifyUser
+            </th>
+            <th>
+                DeletedDate
+            </th>
+            <th>
+                DeletedUser
+            </th>
+            <th>
+                Deleted
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Result) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rolename)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreationDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreationUser)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ModifyDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ModifyUser)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DeletedDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DeletedUser)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Deleted)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { Id=item.Id }) |
+                @Html.ActionLink("Details", "Details", new { Id=item.Id}) |
+
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
