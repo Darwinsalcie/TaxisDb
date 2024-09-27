@@ -13,7 +13,7 @@ namespace TaxisDb.Web.Controllers
     public class RoleController : Controller
     {
         private readonly IRoleRepository roleRepository;
-        private readonly Taxisdb taxisdb;
+
 
         // GET: RoleController
 
@@ -45,15 +45,17 @@ namespace TaxisDb.Web.Controllers
         //}
 
 
-            // GET: RoleController/Details/5
-            public async Task<IActionResult> Details(int Id)
+        // GET: RoleController/Details/5
+        public async Task<IActionResult> Details(int Id)
         {
+
             var result = await this.roleRepository.GetRolesById(Id);
             if (result == null)
             {
                 return NotFound(); // Manejo del caso donde no se encuentra el rol
             }
             return View(result.Result);
+
         }
 
         // GET: RoleController/Create
@@ -65,11 +67,35 @@ namespace TaxisDb.Web.Controllers
         // POST: RoleController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(RoleSaveDTO saveDRO)
+        public async Task<IActionResult> Create(RoleSaveDTO saveDTO)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                saveDTO.CreationDate = DateTime.Now;
+                saveDTO.CreationUser = 1;
+
+                Role role = new Role()
+                {
+
+                    Rolename = saveDTO.Rolename,
+                    CreationDate = saveDTO.CreationDate,
+                    DeletedUser = saveDTO.CreationUser,
+                    Description = saveDTO.Description,
+                    CreationUser = saveDTO.CreationUser,
+
+                }; 
+
+                var result = await this.roleRepository.Save(role);
+
+                if (result)
+                {
+                    return RedirectToAction(nameof(Index));
+                }
+                else
+                {
+                    ViewBag.Message = "Error creando el rol";
+                    return View();
+                }
             }
             catch
             {
@@ -81,21 +107,50 @@ namespace TaxisDb.Web.Controllers
         public async Task<IActionResult> Edit(int Id)
         {
 
-            var role = await this.roleRepository.GetRolesById(Id);
+            var result = await this.roleRepository.GetRolesById(Id);
+            if (result == null)
+            {
+                return NotFound(); // Manejo del caso donde no se encuentra el rol
+            }
+            return View(result.Result);
 
- 
-
-            return View(role.Result);
         }
 
         // POST: RoleController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(RoleUpdateDTO updateDTO)
+        public async Task<IActionResult> Edit(RoleUpdateDTO updateDTO)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                updateDTO.ModifyDate = DateTime.Now;
+                updateDTO.ModifyUser = 1;
+
+                Role role = new Role()
+                {
+
+                    Id = updateDTO.Id,
+                    Rolename = updateDTO.Rolename,
+                    ModifyUser = updateDTO.ModifyUser,
+
+                    Description = updateDTO.Description,
+                    CreationUser = updateDTO.CreationUser,
+
+
+
+                };
+
+                var result = await this.roleRepository.Update(role);
+                if (result)
+                {
+                    return RedirectToAction(nameof(Index));
+                }
+                else
+                {
+                    ViewBag.Message = "Error actualizando el rol";
+                    return View();
+                }
+
             }
             catch
             {

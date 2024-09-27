@@ -64,14 +64,14 @@ namespace TaxisDb.Persistence.Repositories
             return result;
         }
 
-        public async Task<DataResults<RoleModel>> GetRoles(string rolename)
+        public async Task<DataResults<RoleModel>> GetRoles(int Id)
         {
             DataResults<RoleModel> result = new DataResults<RoleModel>();
             try
             {
                 var role = await this.taxisdb.Role
-                                                       .SingleOrDefaultAsync(rol => rol.Rolename == rolename
-                                                                             && rol.Deleted == false);
+                                                       .SingleOrDefaultAsync(rol => rol.Id == Id
+                                                                             && rol.Deleted != false);
 
                 if (role is null)
                 {
@@ -119,12 +119,12 @@ namespace TaxisDb.Persistence.Repositories
             return result;
         }
 
-        public override async Task<bool> Remove(int id)
+        public override async Task<bool> Remove(int Id)
         {
             bool result = false;
             try
             {
-                Role? roleToRemove = await this.taxisdb.Role.FindAsync(id);
+                Role? roleToRemove = await this.taxisdb.Role.FindAsync(Id);
                 if (roleToRemove != null)
                 {
                     roleToRemove.Deleted = true; // Marcar como eliminado
@@ -148,10 +148,10 @@ namespace TaxisDb.Persistence.Repositories
                 //    throw new RoleDataException(this.configuration["Role:start_date_is_null"]);
 
 
-                Role? roleToUpdate = this.taxisdb.Role.Find(entity.Id);
+                Role? roleToUpdate = await this.taxisdb.Role.FindAsync(entity.Id);
+
 
                 roleToUpdate.Rolename= entity.Rolename;
-                roleToUpdate.CreationDate = entity.CreationDate;
                 roleToUpdate.ModifyUser = entity.ModifyUser;
                 roleToUpdate.ModifyDate = entity.ModifyDate;
                 roleToUpdate.Description= entity.Description;
@@ -202,6 +202,11 @@ namespace TaxisDb.Persistence.Repositories
                 this.logger.LogError(result.Message, ex.ToString());
             }
             return result;
+        }
+
+        public Task<DataResults<RoleModel>> GetRoles(string name)
+        {
+            throw new NotImplementedException();
         }
     }
 }

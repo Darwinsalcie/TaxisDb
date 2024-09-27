@@ -7,8 +7,16 @@
       "RelativeMoniker": "D:0:0:{7C961A93-18EF-482C-AAAE-9E91FF918F3B}|TaxisDb.Web\\TaxisDb.Web.csproj|solutionrelative:taxisdb.web\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C961A93-18EF-482C-AAAE-9E91FF918F3B}|TaxisDb.Web\\TaxisDb.Web.csproj|c:\\users\\darwi\\onedrive - universidad apec - acad\u00E9mico\\c#\\itla\\c# .net intermedio\\taxisdb\\taxisdb\\taxisdb.web\\views\\role\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7C961A93-18EF-482C-AAAE-9E91FF918F3B}|TaxisDb.Web\\TaxisDb.Web.csproj|solutionrelative:taxisdb.web\\views\\role\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7C961A93-18EF-482C-AAAE-9E91FF918F3B}|TaxisDb.Web\\TaxisDb.Web.csproj|c:\\users\\darwi\\onedrive - universidad apec - acad\u00E9mico\\c#\\itla\\c# .net intermedio\\taxisdb\\taxisdb\\taxisdb.web\\views\\role\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C961A93-18EF-482C-AAAE-9E91FF918F3B}|TaxisDb.Web\\TaxisDb.Web.csproj|solutionrelative:taxisdb.web\\views\\role\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{299779EA-7EE0-40A4-A8D6-5C560F8A5B3E}|TaxisDb.Persistence\\TaxisDb.Persistence.csproj|c:\\users\\darwi\\onedrive - universidad apec - acad\u00E9mico\\c#\\itla\\c# .net intermedio\\taxisdb\\taxisdb\\taxisdb.persistence\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{299779EA-7EE0-40A4-A8D6-5C560F8A5B3E}|TaxisDb.Persistence\\TaxisDb.Persistence.csproj|solutionrelative:taxisdb.persistence\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C961A93-18EF-482C-AAAE-9E91FF918F3B}|TaxisDb.Web\\TaxisDb.Web.csproj|c:\\users\\darwi\\onedrive - universidad apec - acad\u00E9mico\\c#\\itla\\c# .net intermedio\\taxisdb\\taxisdb\\taxisdb.web\\models\\base\\baseupdateentitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C961A93-18EF-482C-AAAE-9E91FF918F3B}|TaxisDb.Web\\TaxisDb.Web.csproj|solutionrelative:taxisdb.web\\models\\base\\baseupdateentitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{299779EA-7EE0-40A4-A8D6-5C560F8A5B3E}|TaxisDb.Persistence\\TaxisDb.Persistence.csproj|c:\\users\\darwi\\onedrive - universidad apec - acad\u00E9mico\\c#\\itla\\c# .net intermedio\\taxisdb\\taxisdb\\taxisdb.persistence\\repositories\\taxirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,15 +38,41 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BaseUpdateEntityDTO.cs",
+              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\C#\\ITLA\\C# .NET Intermedio\\TaxisDb\\TaxisDb\\TaxisDb.Web\\Models\\Base\\BaseUpdateEntityDTO.cs",
+              "RelativeDocumentMoniker": "TaxisDb.Web\\Models\\Base\\BaseUpdateEntityDTO.cs",
+              "ToolTip": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\C#\\ITLA\\C# .NET Intermedio\\TaxisDb\\TaxisDb\\TaxisDb.Web\\Models\\Base\\BaseUpdateEntityDTO.cs",
+              "RelativeToolTip": "TaxisDb.Web\\Models\\Base\\BaseUpdateEntityDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T06:57:42.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\C#\\ITLA\\C# .NET Intermedio\\TaxisDb\\TaxisDb\\TaxisDb.Web\\Views\\Role\\Edit.cshtml",
-              "RelativeDocumentMoniker": "TaxisDb.Web\\Views\\Role\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\C#\\ITLA\\C# .NET Intermedio\\TaxisDb\\TaxisDb\\TaxisDb.Web\\Views\\Role\\Edit.cshtml",
-              "RelativeToolTip": "TaxisDb.Web\\Views\\Role\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\C#\\ITLA\\C# .NET Intermedio\\TaxisDb\\TaxisDb\\TaxisDb.Web\\Views\\Role\\Index.cshtml",
+              "RelativeDocumentMoniker": "TaxisDb.Web\\Views\\Role\\Index.cshtml",
+              "ToolTip": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\C#\\ITLA\\C# .NET Intermedio\\TaxisDb\\TaxisDb\\TaxisDb.Web\\Views\\Role\\Index.cshtml",
+              "RelativeToolTip": "TaxisDb.Web\\Views\\Role\\Index.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAF0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-27T04:28:29.316Z",
+              "WhenOpened": "2024-09-27T05:25:43.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\C#\\ITLA\\C# .NET Intermedio\\TaxisDb\\TaxisDb\\TaxisDb.Persistence\\Repositories\\RoleRepository.cs",
+              "RelativeDocumentMoniker": "TaxisDb.Persistence\\Repositories\\RoleRepository.cs",
+              "ToolTip": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\C#\\ITLA\\C# .NET Intermedio\\TaxisDb\\TaxisDb\\TaxisDb.Persistence\\Repositories\\RoleRepository.cs",
+              "RelativeToolTip": "TaxisDb.Persistence\\Repositories\\RoleRepository.cs",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAQwJUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T04:34:59.529Z",
               "EditorCaption": ""
             },
             {
@@ -49,23 +83,22 @@
               "RelativeDocumentMoniker": "TaxisDb.Web\\Controllers\\RoleController.cs",
               "ToolTip": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\C#\\ITLA\\C# .NET Intermedio\\TaxisDb\\TaxisDb\\TaxisDb.Web\\Controllers\\RoleController.cs",
               "RelativeToolTip": "TaxisDb.Web\\Controllers\\RoleController.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAkwEwAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAjwIMAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T04:16:35.316Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "TaxiRepository.cs",
               "DocumentMoniker": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\C#\\ITLA\\C# .NET Intermedio\\TaxisDb\\TaxisDb\\TaxisDb.Persistence\\Repositories\\TaxiRepository.cs",
               "RelativeDocumentMoniker": "TaxisDb.Persistence\\Repositories\\TaxiRepository.cs",
               "ToolTip": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\C#\\ITLA\\C# .NET Intermedio\\TaxisDb\\TaxisDb\\TaxisDb.Persistence\\Repositories\\TaxiRepository.cs",
               "RelativeToolTip": "TaxisDb.Persistence\\Repositories\\TaxiRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAASwBMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T04:11:57.528Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-27T04:11:57.528Z"
             }
           ]
         }
