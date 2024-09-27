@@ -26,6 +26,12 @@ namespace TaxisDb.Persistence.Interfaces
         /// <param name="placa"></param>
         /// <returns></returns>
         Task<DataResults<TaxiModel>> GetTaxibyPlaca(string placa);
+        /// <summary>
+        /// Get Taxi by taxiId
+        /// </summary>
+        /// <param name="Id"></param>
+        /// <returns></returns>
+        Task<DataResults<List<TaxiModel>>> GetTaxibyId(int Id);
 
     }
 }

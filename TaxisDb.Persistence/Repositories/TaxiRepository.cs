@@ -187,7 +187,26 @@ namespace TaxisDb.Persistence.Repositories
                    };
         }
 
+        public async Task<DataResults<List<TaxiModel>>> GetTaxibyId(int Id)
+        {
+            DataResults<List<TaxiModel>> result = new DataResults<List<TaxiModel>>();
 
+            try
+            {
+                var query = await GetTaxiBaseQuery()
+                    .Where(taxi => taxi.Id == Id)
+                    .ToListAsync();
+                result.Result = query;
+            }
+            catch (Exception ex)
+            {
+
+                result.Message = this.configuration["Taxi:get_taxi_id"];
+                result.Success = false;
+                this.logger.LogError(this.configuration["Taxi:get_taxi_id"], ex.ToString());
+            }
+            return result;
+        }
     }
 }
 

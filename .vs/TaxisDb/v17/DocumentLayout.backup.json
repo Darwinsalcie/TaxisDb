@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\C#\\ITLA\\C# .NET Intermedio\\TaxisDb\\TaxisDb\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7C961A93-18EF-482C-AAAE-9E91FF918F3B}|TaxisDb.Web\\TaxisDb.Web.csproj|c:\\users\\darwi\\onedrive - universidad apec - acad\u00E9mico\\c#\\itla\\c# .net intermedio\\taxisdb\\taxisdb\\taxisdb.web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C961A93-18EF-482C-AAAE-9E91FF918F3B}|TaxisDb.Web\\TaxisDb.Web.csproj|solutionrelative:taxisdb.web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7C961A93-18EF-482C-AAAE-9E91FF918F3B}|TaxisDb.Web\\TaxisDb.Web.csproj|c:\\users\\darwi\\onedrive - universidad apec - acad\u00E9mico\\c#\\itla\\c# .net intermedio\\taxisdb\\taxisdb\\taxisdb.web\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C961A93-18EF-482C-AAAE-9E91FF918F3B}|TaxisDb.Web\\TaxisDb.Web.csproj|solutionrelative:taxisdb.web\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C961A93-18EF-482C-AAAE-9E91FF918F3B}|TaxisDb.Web\\TaxisDb.Web.csproj|c:\\users\\darwi\\onedrive - universidad apec - acad\u00E9mico\\c#\\itla\\c# .net intermedio\\taxisdb\\taxisdb\\taxisdb.web\\controllers\\tripcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C961A93-18EF-482C-AAAE-9E91FF918F3B}|TaxisDb.Web\\TaxisDb.Web.csproj|solutionrelative:taxisdb.web\\controllers\\tripcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C961A93-18EF-482C-AAAE-9E91FF918F3B}|TaxisDb.Web\\TaxisDb.Web.csproj|c:\\users\\darwi\\onedrive - universidad apec - acad\u00E9mico\\c#\\itla\\c# .net intermedio\\taxisdb\\taxisdb\\taxisdb.web\\controllers\\taxicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C961A93-18EF-482C-AAAE-9E91FF918F3B}|TaxisDb.Web\\TaxisDb.Web.csproj|solutionrelative:taxisdb.web\\controllers\\taxicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,15 +34,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "TripController.cs",
+              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\C#\\ITLA\\C# .NET Intermedio\\TaxisDb\\TaxisDb\\TaxisDb.Web\\Controllers\\TripController.cs",
+              "RelativeDocumentMoniker": "TaxisDb.Web\\Controllers\\TripController.cs",
+              "ToolTip": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\C#\\ITLA\\C# .NET Intermedio\\TaxisDb\\TaxisDb\\TaxisDb.Web\\Controllers\\TripController.cs",
+              "RelativeToolTip": "TaxisDb.Web\\Controllers\\TripController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T09:41:18.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaxiController.cs",
+              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\C#\\ITLA\\C# .NET Intermedio\\TaxisDb\\TaxisDb\\TaxisDb.Web\\Controllers\\TaxiController.cs",
+              "RelativeDocumentMoniker": "TaxisDb.Web\\Controllers\\TaxiController.cs",
+              "ToolTip": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\C#\\ITLA\\C# .NET Intermedio\\TaxisDb\\TaxisDb\\TaxisDb.Web\\Controllers\\TaxiController.cs",
+              "RelativeToolTip": "TaxisDb.Web\\Controllers\\TaxiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T09:41:17.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "RoleController.cs",
               "DocumentMoniker": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\C#\\ITLA\\C# .NET Intermedio\\TaxisDb\\TaxisDb\\TaxisDb.Web\\Controllers\\RoleController.cs",
               "RelativeDocumentMoniker": "TaxisDb.Web\\Controllers\\RoleController.cs",
               "ToolTip": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\C#\\ITLA\\C# .NET Intermedio\\TaxisDb\\TaxisDb\\TaxisDb.Web\\Controllers\\RoleController.cs",
               "RelativeToolTip": "TaxisDb.Web\\Controllers\\RoleController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAvwDIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAYwGQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T04:16:35.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\C#\\ITLA\\C# .NET Intermedio\\TaxisDb\\TaxisDb\\TaxisDb.Web\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "TaxisDb.Web\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\darwi\\OneDrive - Universidad APEC - Acad\u00E9mico\\C#\\ITLA\\C# .NET Intermedio\\TaxisDb\\TaxisDb\\TaxisDb.Web\\Controllers\\UserController.cs",
+              "RelativeToolTip": "TaxisDb.Web\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T08:27:43.676Z",
               "EditorCaption": ""
             }
           ]

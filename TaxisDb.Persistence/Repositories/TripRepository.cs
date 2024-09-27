@@ -32,7 +32,6 @@ namespace TaxisDb.Persistence.Repositories
 
         }
         
-        
         public async Task<DataResults<List<TripModel>>> GetTrip()
         {
             DataResults<List<TripModel>> result = new DataResults<List<TripModel>>();
@@ -146,6 +145,9 @@ namespace TaxisDb.Persistence.Repositories
                 tripToUpdate.Calificacion = entity.Calificacion;
                 tripToUpdate.ModifyDate = entity.ModifyDate;
                 tripToUpdate.ModifyUser = entity.ModifyUser;
+                tripToUpdate.FechaFin = entity.FechaFin;
+                tripToUpdate.FechaInicio = entity.FechaInicio;
+                tripToUpdate.Calificacion = entity.Calificacion;
 
 
                 result = await base.Update(tripToUpdate);

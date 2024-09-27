@@ -1,11 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using System.IO;
+﻿using Microsoft.AspNetCore.Mvc;
 using TaxisDb.Domain.Entities;
-using TaxisDb.Domain.Models;
-using TaxisDb.Persistence.Context;
 using TaxisDb.Persistence.Interfaces;
-using TaxisDb.Persistence.Models.Role;
 using TaxisDb.Web.Models.Role;
 
 namespace TaxisDb.Web.Controllers
@@ -30,22 +25,6 @@ namespace TaxisDb.Web.Controllers
             return View(result);
         }
 
-
-
-        // GET: RoleController/GetByRolename/5
-        //public async Task<IActionResult> GetByRoleName(string name)
-        //{
-        //    var result = await this.roleRepository.GetRoles(name);
-
-
-        //    return View("Index", new DataResults<List<RoleModel>>
-        //    {
-        //        Result = new List<RoleModel> { result.Result }
-        //    });
-        //}
-
-
-        // GET: RoleController/Details/5
         public async Task<IActionResult> Details(int Id)
         {
 

@@ -81,9 +81,29 @@ namespace TaxisDb.Persistence.Repositories
             catch (Exception ex)
             {
 
-                result.Message = this.configuration["User:get_taxi_user_id"];
+                result.Message = this.configuration["User:get_user_userGroup_id"];
                 result.Success = false;
-                this.logger.LogError(this.configuration["User:get_taxi_user_id"], ex.ToString());
+                this.logger.LogError(this.configuration["User:get_user_userGroup_id"], ex.ToString());
+            }
+            return result;
+        }
+        public async Task<DataResults<List<UserModel>>> GetUserById(int Id)
+        {
+            DataResults<List<UserModel>> result = new DataResults<List<UserModel>>();
+
+            try
+            {
+                var query = await GetUserBaseQuery()
+                    .Where(user => user.Id == Id)
+                    .ToListAsync();
+                result.Result = query;
+            }
+            catch (Exception ex)
+            {
+
+                result.Message = this.configuration["User:get_user_user_id"];
+                result.Success = false;
+                this.logger.LogError(this.configuration["User:get_user_user_id"], ex.ToString());
             }
             return result;
         }
@@ -134,12 +154,12 @@ namespace TaxisDb.Persistence.Repositories
             return result;
         }
 
-        public override async Task<bool> Remove(int id)
+        public override async Task<bool> Remove(int Id)
         {
             bool result = false;
             try
             {
-                User? userToRemove = await this.taxisdb.User.FindAsync(id);
+                User? userToRemove = await this.taxisdb.User.FindAsync(Id);
                 if (userToRemove != null)
                 {
                     userToRemove.Deleted = true; // Marcar como eliminado
@@ -168,5 +188,7 @@ namespace TaxisDb.Persistence.Repositories
                        Apellido = user.Apellido
                    };
         }
+
+
     }
 }

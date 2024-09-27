@@ -1,0 +1,82 @@
+﻿@model TaxisDb.Domain.Models.DataResults<List<TaxisDb.Persistence.Models.Taxi.TaxiModel>>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+@if (!Model.Success)
+{
+    <span class="alert-danger">@Model.Message</span>
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                UserId
+            </th>
+            <th>
+                Placa
+            </th>
+            <th>
+                Marca
+            </th>
+            <th>
+                Año
+            </th>
+            <th>
+                Modelo
+            </th>
+            <th>
+                Kilometraje
+            </th>
+            <th>
+                CreationDate
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Result)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Placa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Marca)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Año)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Modelo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Kilometraje)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreationDate)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.Id}) |
+                @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -19,7 +19,7 @@ namespace TaxisDb.Domain.Interfaces
         Task<bool>  Update(TEntity entity);
         Task<bool>  Remove(TType Id);
         Task<List<TEntity>>  GetAll();
-        Task<TEntity>  GetEntityBy(TType id);
+        Task<TEntity>  GetEntityBy(TType Id);
 
         /*Un filtro de tipo Expression que define una condición (por ejemplo, buscar 
          * usuarios con un nombre específico)*/

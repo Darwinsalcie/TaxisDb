@@ -21,10 +21,17 @@ namespace TaxisDb.Persistence.Interfaces
         /// <returns></returns>
         Task<DataResults<UserModel>> GetUserbyName(string name);
         /// <summary>
-        /// Get user by department method
+        /// Get user by usergroup method
         /// </summary>
         /// <returns></returns>
         Task<DataResults<List<UserModel>>> GetUserByUserGroup(int usergroupId);
+
+        /// <summary>
+        /// Get User by UserId
+        /// </summary>
+        /// <param name="Id"></param>
+        /// <returns></returns>
+        Task<DataResults<List<UserModel>>> GetUserById(int Id);
 
     }
 }

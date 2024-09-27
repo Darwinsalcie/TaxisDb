@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TaxisDb.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb9785b302b93ebb5c20e545e10e8c7e2b68b56f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b171dc04d18b59ceb91c15114390ee40bb6d5530")]
 [assembly: System.Reflection.AssemblyProductAttribute("TaxisDb.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TaxisDb.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
