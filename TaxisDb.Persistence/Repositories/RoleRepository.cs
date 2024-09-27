@@ -11,6 +11,7 @@ using TaxisDb.Persistence.Repository;
 using System.Data;
 using TaxisDb.Persistence.Validation;
 using TaxisDb.Persistence.Exceptions;
+using TaxisDb.Persistence.Models.Taxi;
 
 namespace TaxisDb.Persistence.Repositories
 {
@@ -69,25 +70,11 @@ namespace TaxisDb.Persistence.Repositories
             DataResults<RoleModel> result = new DataResults<RoleModel>();
             try
             {
-                var role = await this.taxisdb.Role
-                                                       .SingleOrDefaultAsync(rol => rol.Id == Id
-                                                                             && rol.Deleted != false);
+                RoleModel? dato = await GetRoleBaseQuery().SingleOrDefaultAsync(rol => rol.Id == Id);
 
-                if (role is null)
-                {
-                    result.Message = this.configuration["Role:error_get_roles"];
-                    result.Success = false;
-                    return result;
-                }
 
-                result.Result = new RoleModel()
-                {
-                    Id = role.Id,
-                    Description = role.Description,
-                    Rolename = role.Rolename,
-                    CreationUser = role.CreationUser,
-                    CreationDate = role.CreationDate.Date,
-                };
+                result.Result = dato;
+
             }
             catch (Exception ex)
             {
@@ -212,6 +199,21 @@ namespace TaxisDb.Persistence.Repositories
         public Task<DataResults<RoleModel>> GetRoles(string name)
         {
             throw new NotImplementedException();
+        }
+
+        private IQueryable<RoleModel> GetRoleBaseQuery()
+        {
+            return from role in this.taxisdb.Role
+                   where role.Deleted != true
+                   select new RoleModel()
+
+                   {
+                       Id = role.Id,
+                       Description = role.Description,
+                       Rolename = role.Rolename,
+                       CreationUser = role.CreationUser,
+                       CreationDate = role.CreationDate.Date,
+                   };
         }
     }
 }

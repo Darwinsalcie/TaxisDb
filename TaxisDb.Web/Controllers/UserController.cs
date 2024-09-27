@@ -52,6 +52,7 @@ namespace TaxisDb.Web.Controllers
 
                 User user = new User()
                 {
+                    Id = saveDTO.Id,
                     UserGroupId = saveDTO.UserGroupId,
                     UserGroupReqId = saveDTO.UserGroupReqId,
                     Documento = saveDTO.Documento,
@@ -90,11 +91,15 @@ namespace TaxisDb.Web.Controllers
 
         }
 
-        // POST: UserController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(UserUpdateDTO updateDTO)
         {
+            if (!ModelState.IsValid)
+            {
+                return View(updateDTO); // En caso de validación fallida
+            }
+
             try
             {
                 updateDTO.ModifyDate = DateTime.Now;
@@ -102,31 +107,33 @@ namespace TaxisDb.Web.Controllers
 
                 User user = new User()
                 {
+                    Id = updateDTO.Id, // Asegúrate de que el Id esté presente
                     UserGroupId = updateDTO.UserGroupId,
                     UserGroupReqId = updateDTO.UserGroupReqId,
                     Documento = updateDTO.Documento,
                     Nombre = updateDTO.Nombre,
                     Apellido = updateDTO.Apellido
-
                 };
 
                 var result = await this.userRepository.Update(user);
+
                 if (result)
                 {
                     return RedirectToAction(nameof(Index));
                 }
                 else
                 {
-                    ViewBag.Message = "Error actualizando el user";
-                    return View();
+                    ViewBag.Message = "Error actualizando el usuario";
+                    return View(updateDTO);
                 }
-
             }
-            catch
+            catch (Exception ex)
             {
-                return View();
+                ViewBag.Message = "Se produjo un error inesperado.";
+                return View(updateDTO);
             }
         }
+
 
     }
 }

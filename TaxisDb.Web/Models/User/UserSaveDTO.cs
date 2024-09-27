@@ -4,6 +4,7 @@ namespace TaxisDb.Web.Models.User
 {
     public record UserSaveDTO : BaseSaveEntityDTO
     {
+        public int Id { get; set; }
         public int UserGroupId { get; set; }
         public int UserGroupReqId { get; set; }
         public string Documento { get; set; }
