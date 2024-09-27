@@ -1,11 +1,13 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using Microsoft.IdentityModel.Tokens;
 using TaxisDb.Domain.Entities;
 using TaxisDb.Domain.Models;
 using TaxisDb.Persistence.Context;
 using TaxisDb.Persistence.Exceptions;
 using TaxisDb.Persistence.Interfaces;
+using TaxisDb.Persistence.Models.Role;
 using TaxisDb.Persistence.Models.Taxi;
 using TaxisDb.Persistence.Repository;
 using TaxisDb.Persistence.Validation;
@@ -188,3 +190,9 @@ namespace TaxisDb.Persistence.Repositories
 
     }
 }
+
+
+
+
+
+

@@ -30,3 +30,19 @@ C:\Users\darwi\OneDrive\Desktop\TaxisDb\TaxisDb.Persistence\obj\Debug\net8.0\Tax
 C:\Users\darwi\OneDrive\Desktop\TaxisDb\TaxisDb.Persistence\obj\Debug\net8.0\refint\TaxisDb.Persistence.dll
 C:\Users\darwi\OneDrive\Desktop\TaxisDb\TaxisDb.Persistence\obj\Debug\net8.0\TaxisDb.Persistence.pdb
 C:\Users\darwi\OneDrive\Desktop\TaxisDb\TaxisDb.Persistence\obj\Debug\net8.0\ref\TaxisDb.Persistence.dll
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\C#\ITLA\C# .NET Intermedio\TaxisDb\TaxisDb\TaxisDb.Persistence\bin\Debug\net8.0\TaxisDb.Persistence.deps.json
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\C#\ITLA\C# .NET Intermedio\TaxisDb\TaxisDb\TaxisDb.Persistence\bin\Debug\net8.0\TaxisDb.Persistence.dll
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\C#\ITLA\C# .NET Intermedio\TaxisDb\TaxisDb\TaxisDb.Persistence\bin\Debug\net8.0\TaxisDb.Persistence.pdb
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\C#\ITLA\C# .NET Intermedio\TaxisDb\TaxisDb\TaxisDb.Persistence\bin\Debug\net8.0\TaxisDb.Domain.dll
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\C#\ITLA\C# .NET Intermedio\TaxisDb\TaxisDb\TaxisDb.Persistence\bin\Debug\net8.0\TaxisDb.Domain.pdb
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\C#\ITLA\C# .NET Intermedio\TaxisDb\TaxisDb\TaxisDb.Persistence\obj\Debug\net8.0\TaxisDb.Persistence.csproj.AssemblyReference.cache
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\C#\ITLA\C# .NET Intermedio\TaxisDb\TaxisDb\TaxisDb.Persistence\obj\Debug\net8.0\TaxisDb.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\C#\ITLA\C# .NET Intermedio\TaxisDb\TaxisDb\TaxisDb.Persistence\obj\Debug\net8.0\TaxisDb.Persistence.AssemblyInfoInputs.cache
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\C#\ITLA\C# .NET Intermedio\TaxisDb\TaxisDb\TaxisDb.Persistence\obj\Debug\net8.0\TaxisDb.Persistence.AssemblyInfo.cs
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\C#\ITLA\C# .NET Intermedio\TaxisDb\TaxisDb\TaxisDb.Persistence\obj\Debug\net8.0\TaxisDb.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\C#\ITLA\C# .NET Intermedio\TaxisDb\TaxisDb\TaxisDb.Persistence\obj\Debug\net8.0\TaxisDb.Persistence.sourcelink.json
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\C#\ITLA\C# .NET Intermedio\TaxisDb\TaxisDb\TaxisDb.Persistence\obj\Debug\net8.0\TaxisDb..CB969628.Up2Date
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\C#\ITLA\C# .NET Intermedio\TaxisDb\TaxisDb\TaxisDb.Persistence\obj\Debug\net8.0\TaxisDb.Persistence.dll
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\C#\ITLA\C# .NET Intermedio\TaxisDb\TaxisDb\TaxisDb.Persistence\obj\Debug\net8.0\refint\TaxisDb.Persistence.dll
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\C#\ITLA\C# .NET Intermedio\TaxisDb\TaxisDb\TaxisDb.Persistence\obj\Debug\net8.0\TaxisDb.Persistence.pdb
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\C#\ITLA\C# .NET Intermedio\TaxisDb\TaxisDb\TaxisDb.Persistence\obj\Debug\net8.0\ref\TaxisDb.Persistence.dll

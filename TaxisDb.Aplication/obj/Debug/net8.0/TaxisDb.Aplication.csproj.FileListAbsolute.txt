@@ -22,3 +22,15 @@ C:\Users\darwi\OneDrive\Desktop\TaxisDb\TaxisDb.Aplication\obj\Debug\net8.0\Taxi
 C:\Users\darwi\OneDrive\Desktop\TaxisDb\TaxisDb.Aplication\obj\Debug\net8.0\refint\TaxisDb.Aplication.dll
 C:\Users\darwi\OneDrive\Desktop\TaxisDb\TaxisDb.Aplication\obj\Debug\net8.0\TaxisDb.Aplication.pdb
 C:\Users\darwi\OneDrive\Desktop\TaxisDb\TaxisDb.Aplication\obj\Debug\net8.0\ref\TaxisDb.Aplication.dll
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\C#\ITLA\C# .NET Intermedio\TaxisDb\TaxisDb\TaxisDb.Aplication\bin\Debug\net8.0\TaxisDb.Aplication.deps.json
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\C#\ITLA\C# .NET Intermedio\TaxisDb\TaxisDb\TaxisDb.Aplication\bin\Debug\net8.0\TaxisDb.Aplication.dll
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\C#\ITLA\C# .NET Intermedio\TaxisDb\TaxisDb\TaxisDb.Aplication\bin\Debug\net8.0\TaxisDb.Aplication.pdb
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\C#\ITLA\C# .NET Intermedio\TaxisDb\TaxisDb\TaxisDb.Aplication\obj\Debug\net8.0\TaxisDb.Aplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\C#\ITLA\C# .NET Intermedio\TaxisDb\TaxisDb\TaxisDb.Aplication\obj\Debug\net8.0\TaxisDb.Aplication.AssemblyInfoInputs.cache
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\C#\ITLA\C# .NET Intermedio\TaxisDb\TaxisDb\TaxisDb.Aplication\obj\Debug\net8.0\TaxisDb.Aplication.AssemblyInfo.cs
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\C#\ITLA\C# .NET Intermedio\TaxisDb\TaxisDb\TaxisDb.Aplication\obj\Debug\net8.0\TaxisDb.Aplication.csproj.CoreCompileInputs.cache
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\C#\ITLA\C# .NET Intermedio\TaxisDb\TaxisDb\TaxisDb.Aplication\obj\Debug\net8.0\TaxisDb.Aplication.sourcelink.json
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\C#\ITLA\C# .NET Intermedio\TaxisDb\TaxisDb\TaxisDb.Aplication\obj\Debug\net8.0\TaxisDb.Aplication.dll
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\C#\ITLA\C# .NET Intermedio\TaxisDb\TaxisDb\TaxisDb.Aplication\obj\Debug\net8.0\refint\TaxisDb.Aplication.dll
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\C#\ITLA\C# .NET Intermedio\TaxisDb\TaxisDb\TaxisDb.Aplication\obj\Debug\net8.0\TaxisDb.Aplication.pdb
+C:\Users\darwi\OneDrive - Universidad APEC - Académico\C#\ITLA\C# .NET Intermedio\TaxisDb\TaxisDb\TaxisDb.Aplication\obj\Debug\net8.0\ref\TaxisDb.Aplication.dll

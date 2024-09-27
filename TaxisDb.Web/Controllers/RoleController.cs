@@ -1,15 +1,19 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.IO;
 using TaxisDb.Domain.Entities;
 using TaxisDb.Domain.Models;
+using TaxisDb.Persistence.Context;
 using TaxisDb.Persistence.Interfaces;
 using TaxisDb.Persistence.Models.Role;
+using TaxisDb.Web.Models.Role;
 
 namespace TaxisDb.Web.Controllers
 {
     public class RoleController : Controller
     {
         private readonly IRoleRepository roleRepository;
+        private readonly Taxisdb taxisdb;
 
         // GET: RoleController
 
@@ -61,7 +65,7 @@ namespace TaxisDb.Web.Controllers
         // POST: RoleController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public ActionResult Create(RoleSaveDTO saveDRO)
         {
             try
             {
@@ -87,7 +91,7 @@ namespace TaxisDb.Web.Controllers
         // POST: RoleController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public ActionResult Edit(RoleUpdateDTO updateDTO)
         {
             try
             {
@@ -98,7 +102,6 @@ namespace TaxisDb.Web.Controllers
                 return View();
             }
         }
-
 
     }
 }

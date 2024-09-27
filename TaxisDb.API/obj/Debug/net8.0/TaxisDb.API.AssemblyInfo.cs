@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TaxisDb.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+acda1aa281b150600814ec05773d9eaa9cb70ab6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb9785b302b93ebb5c20e545e10e8c7e2b68b56f")]
 [assembly: System.Reflection.AssemblyProductAttribute("TaxisDb.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TaxisDb.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
